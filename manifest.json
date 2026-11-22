@@ -123,7 +123,9 @@
           "source": "lsp",
           "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hex-conservative-0.2.3/src/parse.rs"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/d6dbc31678cc507c8cae62b3a059b0b48e866436/chunk-001.nq.gz",
+      "dep": "dep/d6dbc31678cc507c8cae62b3a059b0b48e866436.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
