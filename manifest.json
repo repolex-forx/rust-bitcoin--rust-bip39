@@ -38,6 +38,91 @@
       ],
       "ast": [
         "aggregate/ast/d6dbc31678cc507c8cae62b3a059b0b48e866436/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/d6dbc31678cc507c8cae62b3a059b0b48e866436.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "rand_core",
+          "ecosystem": "CARGO",
+          "version": ">=0.4.0, <0.7.0",
+          "githubOrg": "rust-random",
+          "githubRepo": "rand_core",
+          "githubUrl": "https://github.com/rust-random/rand_core",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "serde",
+          "ecosystem": "CARGO",
+          "version": "1.0",
+          "githubOrg": "serde-rs",
+          "githubRepo": "serde",
+          "githubUrl": "https://github.com/serde-rs/serde",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "zeroize",
+          "ecosystem": "CARGO",
+          "version": "1.5",
+          "githubOrg": "RustCrypto",
+          "githubRepo": "utils",
+          "githubUrl": "https://github.com/RustCrypto/utils",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "bitcoin_hashes",
+          "ecosystem": "CARGO",
+          "version": ">=0.12,<0.15",
+          "githubOrg": "rust-bitcoin",
+          "githubRepo": "rust-bitcoin",
+          "githubUrl": "https://github.com/rust-bitcoin/rust-bitcoin",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "unicode-normalization",
+          "ecosystem": "CARGO",
+          "version": "0.1.22",
+          "githubOrg": "unicode-rs",
+          "githubRepo": "unicode-normalization",
+          "githubCommit": "d4318ad5a57f21b3f24ccdc55032b600b075e66d",
+          "githubTag": "v0.1.22",
+          "githubUrl": "https://github.com/unicode-rs/unicode-normalization",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "bip39",
+          "ecosystem": "CARGO",
+          "version": "3.0.0",
+          "githubOrg": "rust-bitcoin",
+          "githubRepo": "rust-bip39",
+          "githubCommit": "4f182f06ce7ed707b547dbecc20128373200a89a",
+          "githubTag": "v3.0.0",
+          "githubUrl": "https://github.com/rust-bitcoin/rust-bip39/",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "rand",
+          "ecosystem": "CARGO",
+          "version": "0.8.8",
+          "githubOrg": "rust-random",
+          "githubRepo": "rand",
+          "githubCommit": "572d3b0c176085c485b8fa7818a04b769097bd72",
+          "githubTag": "0.8.8",
+          "githubUrl": "https://github.com/rust-random/rand",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand-0.8.8/src/rngs/thread.rs"
+        },
+        {
+          "packageName": "hex-conservative",
+          "ecosystem": "CARGO",
+          "version": "0.2.3",
+          "githubOrg": "rust-bitcoin",
+          "githubRepo": "hex-conservative",
+          "githubCommit": "e17b9b2abf55df1d4a1c4d3ca2f9d619660ecb75",
+          "githubTag": "hex-conservative-0.2.3",
+          "githubUrl": "https://github.com/rust-bitcoin/hex-conservative",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hex-conservative-0.2.3/src/parse.rs"
+        }
       ]
     }
   ],
