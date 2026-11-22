@@ -1,0 +1,11 @@
+{
+  "org": "rust-bitcoin",
+  "repo": "rust-bip39",
+  "versions": [
+    {
+      "commit": "d6dbc31678cc507c8cae62b3a059b0b48e866436",
+      "tag": "v2.2.2",
+      "parsed_at": "2026-11-22T10:27:42.547211+00:00"
+    }
+  ]
+}
